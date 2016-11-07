@@ -1,14 +1,14 @@
 {
-    "name": "elisdn/yii2-hybrid-authmanager",
-    "description": "Hybrid RBAC AuthManager for Yii2 Framework.",
+    "name": "chalvik/yii2-test",
+    "description": "Тest ",
     "type": "yii2-extension",
-    "keywords": ["yii2", "yii 2", "authmanager"],
+    "keywords": ["yii2", "yii 2"],
     "license": "BSD-3-Clause",
     "authors": [
         {
-            "name": "Dmitriy Yeliseyev",
-            "email": "mail@elisdn.ru",
-            "homepage": "http://www.elisdn.ru"
+            "name": "Chernogor Alexey",
+            "email": "chalvik27@mail.ru",
+            "homepage": "makinmweb.com"
         }
     ],
     "support": {
@@ -18,23 +18,9 @@
     "require": {
         "yiisoft/yii2": "~2.0"
     },
-    "require-dev": {
-        "phpunit/phpunit": "4.*"
-    },
     "autoload": {
         "psr-4": {
-            "elisdn\\hybrid\\": "src/"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
-            "chalvik\\test\\": "tests/"
-        }
-    },
-    "extra": {
-        "asset-installer-paths": {
-            "npm-asset-library": "vendor/npm",
-            "bower-asset-library": "vendor/bower"
+            "chalvik\\test\\": ""
         }
     }
 }
